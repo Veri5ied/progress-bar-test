@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.progress {
+  background-color: #d8d8d8;
+  border-radius: 20px;
+  position: relative;
+  margin: 15px 0;
+  height: 30px;
+  width: 300px;
+}
+
+.progress-done {
+  background: green;
+  box-shadow: 0 3px 3px -5px green, 0 2px 5px green;
+  border-radius: 20px;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  opacity: 0;
+  transition: 1s ease 0.3s;
+  width: 50%;
+  opacity: 1;
+}
+
+.red {
+  background: red;
+  box-shadow: 0 3px 3px -5px red, 0 2px 5px red;
+}
+
+.white {
+  background: white;
+  box-shadow: 0 3px 3px -5px #ddd, 0 2px 5px #ddd;
+}
+
+.blue {
+  background: blue;
+  box-shadow: 0 3px 3px -5px blue, 0 2px 5px blue;
+}
+
+.yellow {
+  background: yellow;
+  box-shadow: 0 3px 3px -5px yellow, 0 2px 5px yellow;
+}
+
+button {
+  background-color: aqua;
+  border: none;
+  width: 216px;
+  height: 46px;
+  font-weight: bold;
+  cursor: pointer;
+}
